@@ -1,0 +1,130 @@
+/* ============ External CSS (Step 12) ============ */
+
+/* Step 13-14. Element / class / ID selectors */
+body {
+    margin: 0;
+    padding: 0;
+    color: rgb(28, 5, 5);
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('favicon.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+p {
+    font-size: 16px;
+}
+
+.highlight {
+    color: red;
+}
+
+#main-heading {
+    color: black;
+    font-size: 50px;
+}
+
+a {
+    color: rgb(210, 66, 90);
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+}
+
+button {
+    background-color: rgb(13, 180, 7);
+    color: rgb(18, 12, 12);
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 30px 0;
+}
+
+th, td {
+    border: 1px solid rgb(116, 9, 9);
+    padding: 8px;
+}
+
+.layout-table .menu-col {
+    width: 25%;
+    background-color: darkred;
+}
+
+.layout-table .content-col {
+    background-color: maroon;
+}
+
+/* Step 18. Positioning */
+.box {
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid white;
+    background-color: darkred;
+    width: 250px;
+}
+
+.static-box {
+    position: static;
+}
+
+.relative-box {
+    position: relative;
+    left: 30px;
+}
+
+.absolute-box {
+    position: absolute;
+    right: 20px;
+}
+
+/* Step 19. Sizing units: px, %, em, rem */
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+img {
+    width: 200px;
+    max-width: 40%;
+    border: 2px solid white;
+}
+
+/* Step 20. Float and clear */
+.float-box {
+    width: 45%;
+    padding: 10px;
+    background-color: darkred;
+    border: 1px solid white;
+}
+
+.left-box {
+    float: left;
+}
+
+.right-box {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
